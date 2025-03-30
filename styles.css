@@ -64,3 +64,34 @@ video {
     display: none;
     color: red;
 }
+
+@media (max-width: 768px) {
+    body {
+        padding: 50px; 
+    }
+
+    .box {
+        width: 80%; 
+        max-width: 400px; 
+        margin-top: 50px; 
+    }
+
+    input {
+        width: 100%; 
+    }
+
+    button {
+        width: 100%;
+        font-size: 14px; 
+    }
+
+    #content {
+        width: 90%; 
+        padding: 10px; 
+    }
+
+    video {
+        width: 100%; 
+        height: auto; 
+    }
+}
