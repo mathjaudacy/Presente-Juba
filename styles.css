@@ -53,3 +53,30 @@ button:hover {
     transform: translate(-50%, -50%);
     z-index: 10;
 }
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 20px;  
+    }
+    
+    .box {
+        width: 90%; 
+        margin-top: 50px; 
+    }
+
+    input, button {
+        width: 100%;  
+        padding: 12px; 
+    }
+
+    #content {
+        width: 100%;  
+        padding: 20px;
+    }
+
+    video {
+        max-width: 100%;
+        height: auto;
+    }
+}
