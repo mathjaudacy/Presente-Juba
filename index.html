@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jujuba</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="/icon/favicon-32x32.png">
+</head>
+<body>
+    <div id="login" class="box">
+        <h2>Digite a senha para acessar:</h2>
+        <input type="password" id="password" placeholder="Senha">
+        <button onclick="checkPassword()">Entrar</button>
+        <p id="error" class="hidden"> A senha está incorreta 😔!</p>
+    </div>
+
+    <div id="content" class="box">
+        <h1>Bem-vinda Juba, aproveite seu vídeo 🌻!</h1>
+        <h2>(em tela cheia fica melhor)</h2>
+        <video controls>
+            <source src="./vídeos/Edit Juba.mp4" type="video/mp4">
+            Seu navegador não suporta o formato de vídeo.
+        </video>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

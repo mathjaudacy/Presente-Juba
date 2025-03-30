@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url('./imagens/thumb-1920-675723.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    padding: 201px;
+    margin: 0;
+}
+
+.box {
+    background: rgba(188, 14, 14, 0.055);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin: auto;
+    margin-top: 100px;
+    backdrop-filter: blur(4px);
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background: #ff9800;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #e68900;
+}
+
+#content {
+    display: none;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.hidden {
+    display: none;
+    color: red;
+}
